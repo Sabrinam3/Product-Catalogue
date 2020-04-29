@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="m-4 text-center">
+    <h4>Welcome</h4>
+    <img src="~/images/makeup.png"alt="cosmetics" />
+    @if (ViewBag.Message != null)
+    {
+        ViewBag.Message = ViewBag.Message.Replace("\"", "");
+    }
+<h5 id="pleaseLogin">@ViewBag.Message</h5>
+</div>

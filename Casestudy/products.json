@@ -1,0 +1,167 @@
+[
+  {
+    "ID": "KVDI7M",
+    "PNAME": "Tattoo Liner",
+    "GNAME": "tattooliner.jpg",
+    "PRICE": 26.50,
+    "MSRP": 25.00,
+    "QTYHAND": 132,
+    "QTYORDER": 0,
+    "DESCRIPTION": "An award-winning, vegan, liquid eyeliner with an ultra-precise brush tip for easy application to create the iconic cat-eye, and more. This high-pigment, smudge-resistant formula has all-day-long wear that you can trust to stay put. Create any look imaginable on every eye shape. The brush tip delivers easy application and ultimate precision, making Tattoo Liner the perfect tool for everyone, from beginners to pros.",
+    "BRAND": "KAT VON D"
+  },
+  {
+    "ID": "KVDBNO",
+    "PNAME": "Lock-It Foundation",
+    "GNAME": "lockitfoundation.jpg",
+    "PRICE": 48.00,
+    "MSRP": 48.00,
+    "QTYHAND": 342,
+    "QTYORDER": 0,
+    "DESCRIPTION": "A vegan, matte foundation with flexible full coverage and extreme long-wear. A little goes a long way. One full pump is too much for a full-coverage face look. Build in pea-size droplets until you achieve the finish you want. One pea-size droplet gives you medium-to-full coverage. Two pea-size droplets gives you flawless full coverage.",
+    "BRAND": "KAT VON D"
+  },
+  {
+    "ID": "KVDEJX",
+    "PNAME": "Studded Kiss Creme Lipstick",
+    "GNAME": "studdedlipstick.jpg",
+    "PRICE": 24.00,
+    "MSRP": 22.95,
+    "QTYHAND": 52,
+    "QTYORDER": 0,
+    "DESCRIPTION": "A breakthrough new lipstick combining super-creamy color and weightless, comfortable long wear. See and feel the difference instantly. Studded Kiss Creme Lipstick features a high-chroma content for pure, vivid color in a revolutionary new base formula that's crystal clear, super-soft, and virtually weightless. Made with smooth, spherical pigments and lip-nourishing ingredients, it's never been easier to coat your lips in creamy, comfortable color.",
+    "BRAND": "KAT VON D"
+  },
+  {
+    "ID": "KVDH87",
+    "PNAME": "Shade + Light Eye Contour Palette",
+    "GNAME": "shadeandlighteye.jpg",
+    "PRICE": 63.00,
+    "MSRP": 63.00,
+    "QTYHAND": 21,
+    "QTYORDER": 0,
+    "DESCRIPTION": "An eye contouring palette with three color quads in neutral, cool, and warm shades. Transform your eyes through the art of contouring. After tapping into makeup pro secrets, Kat Von D created this first-of-its-kind eyeshadow palette, specially designed for eye contouring - a groundbreaking technique once used only by beauty experts to define and enhance eyes. This palette features a gorgeous, versatile array of true contouring shades, arranged into three color quad - neutral, cool, and warm - to flatter every skin tone.",
+    "BRAND": "KAT VON D"
+  },
+  {
+    "ID": "KVDD5F",
+    "PNAME": "Lock-It Setting Powder",
+    "GNAME": "lockitpowder.jpg",
+    "PRICE": 41.00,
+    "MSRP": 39.95,
+    "QTYHAND": 83,
+    "QTYORDER": 0,
+    "DESCRIPTION": "A weightless translucent loose powder to set and perfect for a flawless, locked-in finish. Get ready for the latest breakthrough. Lock-It Setting Powder is not your grandma's loose powder. Kat Von D's groundbreaking technology reduces the weight by 45 percent compared to the leading setting powder, so you get a better finish with no chalkiness, no flashback, and no added texture.",
+    "BRAND": "KAT VON D"
+  },
+  {
+    "ID": "TFFX1L",
+    "PNAME": "Born This Way Foundation",
+    "GNAME": "bornthiswayf.jpg",
+    "PRICE": 51.00,
+    "MSRP": 51.00,
+    "QTYHAND": 267,
+    "QTYORDER": 0,
+    "DESCRIPTION": "An oil-free foundation that masterfully diffuses the line between makeup and skin with coverage so undetectable, they'll think you were born this way. Born This Way is available in 35 shades so more people can have flawless, \"I woke up like this\" skin. It provides undetectable, medium-to-full coverage. It's oil-free, hydrating, and long-wearing for up to 12 hours. This noncomedogenic formula is also photo-friendly and won't cause flashback.",
+    "BRAND": "Too Faced"
+  },
+  {
+    "ID": "TFFR7E",
+    "PNAME": "Natural Eyes Eyeshadow Palette",
+    "GNAME": "naturalpalette.jpg",
+    "PRICE": 50.00,
+    "MSRP": 50.00,
+    "QTYHAND": 67,
+    "QTYORDER": 0,
+    "DESCRIPTION": "A bestselling collection of nine naturally gorgeous matte and shimmer shadows. This collection of beautiful neutrals-ranging from soft and pretty to slightly sexy-allows you to flaunt your natural side with a look that appears so effortless, you can wear it from coffee to cocktails. The rich, pigmented shadows offer true color payoff, and the luxurious, silky-smooth formula blends effortlessly. Oversized base shades ensure you won't run out of the ones you use the most. It's all the shades you need in a compact, purse-size palette. ",
+    "BRAND": "Too Faced"
+  },
+  {
+    "ID": "TFFCNH",
+    "PNAME": "Melted Matte Lipstick",
+    "GNAME": "meltedmlipstick.jpg",
+    "PRICE": 28.00,
+    "MSRP": 26.50,
+    "QTYHAND": 23,
+    "QTYORDER": 0,
+    "DESCRIPTION": "A lightweight, long-wearing liquified matte lipstick with a creamy and matte, color-rich formula. Matte color gets a makeover. Too Faced's innovative formula glides onto lips like a gloss but dries to an ultra-matte, opaque finish. Melted Matte ensures that your lip color always looks rich, full, and kissable-and is never dry, shriveled, or cracked. The doe-foot applicator comfortably coats lips in bursts of intense, vivid matte color that lasts for hours. It's infused with Volulip for a no-sting plumping and smoothing effect and antioxidant-rich avocado oil and vitamin E to moisturize, while hyaluronic filling spheres smooth the look of lip lines. It comfortably coats lips with a wash of intense, high-impact, super-saturated color that lasts for hours. ",
+    "BRAND": "Too Faced"
+  },
+  {
+    "ID": "TFF3LB",
+    "PNAME": "Chocolate Soleil Matte Bronzer",
+    "GNAME": "chocolatebronzer.jpg",
+    "PRICE": 40.00,
+    "MSRP": 38.99,
+    "QTYHAND": 46,
+    "QTYORDER": 0,
+    "DESCRIPTION": "A long-wearing, rich, matte bronzer infused with 100 percent real cocoa powder. Bronzing has never been so delicious. Create all-over warmth and dimension while achieving a rich, matte, buildable tan. The formula is infused with 100 percent real cocoa powder for skin-loving benefits and a long-wear bronze that smells as good as it looks.",
+    "BRAND": "Too Faced"
+  },
+  {
+    "ID": "TFFOV7",
+    "PNAME": "Sweet Peach Eyeshadow Palette",
+    "GNAME": "peachpalette.jpg",
+    "PRICE": 65.00,
+    "MSRP": 65.00,
+    "QTYHAND": 18,
+    "QTYORDER": 0,
+    "DESCRIPTION": "An eyeshadow palette with 18 shades in peachy pinks, corals, bronzes, and purples. The Sweet Peach Eyeshadow Collection Palette is infused with the juicy scent and antioxidant-rich essence of peach. Create endless looks with 18 shades of peachy pinks, corals, bronzes, and pops of purples that will leave your eyes looking warm weather-fresh all year long. It features a Glamour Guide with three eye looks to get you started. ",
+    "BRAND": "Too Faced"
+  },
+  {
+    "ID": "UDDSWO",
+    "PNAME": "Naked2 Palette",
+    "GNAME": "naked2.jpg",
+    "PRICE": 38.00,
+    "MSRP": 40.00,
+    "QTYHAND": 29,
+    "QTYORDER": 0,
+    "DESCRIPTION": "An eyeshadow palette, featuring taupe-hued neutrals in a wide range of finishes. From luminous shades with shimmer and sparkle to the smoothest mattes imaginable, Urban Decay's Naked2 is packed with always-vibrant, taupe-hued neutrals-including a gorgeous grayish brown, a glittery copper, and Urban Decay's blackest black. Expand your Naked range to create even more sultry neutral looks, smoky dramatic looks, and everything in between.",
+    "BRAND": "Urban Decay"
+  },
+  {
+    "ID": "UDD2IE",
+    "PNAME": "Eyeshadow Primer Potion",
+    "GNAME": "primerpotion.jpg",
+    "PRICE": 17.50,
+    "MSRP": 21.00,
+    "QTYHAND": 29,
+    "QTYORDER": 0,
+    "DESCRIPTION": "A 24-hour wear, nude eyeshadow primer that ensures vibrant, crease-free wear. This primer keeps your eyeshadow crease-free while making color more vibrant and providing a smoother application. Formulated with polymer technology, it fills in any imperfections on the skin's surface, prepping lids for all-day wear. It glides on smoothly, blends beautifully on all skin tones, and dries on invisibly.",
+    "BRAND": "Urban Decay"
+  },
+  {
+    "ID": "UDD86I",
+    "PNAME": "Vice Lipstick",
+    "GNAME": "vicelipstick.jpg",
+    "PRICE": 25.00,
+    "MSRP": 25.00,
+    "QTYHAND": 68,
+    "QTYORDER": 0,
+    "DESCRIPTION": "An innovative lip formula, in an array of shades and finishes, that gives an unbelievable laydown of color with just one swipe. Vice Lipstick features six indulgent finishes and array of addictive shades that range from bold brights to dark hues to versatile neutrals. Each shade applies smoothly (without dragging or skipping), hugs lips, and feels ultra-comfortable. Urban Decay's proprietary Pigment Infusion System gives the formula its super-creamy texture, rich payout, and superior color dispersion.",
+    "BRAND": "Urban Decay"
+  },
+  {
+    "ID": "UDDJRI",
+    "PNAME": "Naked Heat Palette",
+    "GNAME": "nakedheat.jpg",
+    "PRICE": 68.00,
+    "MSRP": 72.00,
+    "QTYHAND": 41,
+    "QTYORDER": 0,
+    "DESCRIPTION": "A range of amber-hued neutrals that make up the most shade-driven Naked eyeshadow palette Urban Decay has ever created. Urban Decay's Naked Heat features all-new, amber-hued neutrals-including warm browns, burnt oranges, and rich siennas. Each shade features Urban Decay's Pigment Infusion System, a proprietary blend of ingredients that gives each shade its velvety texture, rich color, ultimate staying power, and blendability. ",
+    "BRAND": "Urban Decay"
+  },
+  {
+    "ID": "UDDNV0",
+    "PNAME": "Moondust Eyeshadow",
+    "GNAME": "moondustshadow.jpg",
+    "PRICE": 29.50,
+    "MSRP": 29.50,
+    "QTYHAND": 117,
+    "QTYORDER": 0,
+    "DESCRIPTION": "A sparkly eyeshadow with a refined and sophisticated feel. This dazzlingly sparkly shadow innovates with a chic feel and not a single speck of chunky glitter. Microfine bits of iridescent sparkle collide with intense, dreamy hues and lush, 3D metallics for an effect that's out of this world. And since Moondust has minimal fallout, the sparkle stays on your lids (and off your cheeks).",
+    "BRAND": "Urban Decay"
+  }
+]

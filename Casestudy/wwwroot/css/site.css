@@ -1,0 +1,82 @@
+﻿.nav-link text-light
+{
+    margin-left:2vh;
+}
+.logodiv {
+    margin-bottom: 5vh;
+    text-align: center;
+}
+h4{
+    font-family:'Segoe UI', Arial;
+    color:midnightblue;
+    margin-bottom:2vh;
+    font-size:3rem;
+}
+h3 {
+    font-family: 'Segoe UI', Arial;
+    color: midnightblue;
+    margin-bottom: 2vh;
+    font-size: 2rem;
+}
+
+.modalimg{
+    width:15vh;
+    height:15vh;
+    margin:2vh;
+}
+#detailsModal {
+    background-color: aliceblue;
+    margin: 2vh;
+    border: 1px solid midnightblue;
+}
+.modal-body {
+    background-color: aliceblue;
+    margin: 2vh;
+    border: 1px solid midnightblue;
+}
+
+
+#detailsGraphic {
+    width: 25vh;
+    height: 25vh;
+    margin: 1vh 2vh 1vh 1vh;
+    border: 2px solid black;
+    float: left;
+}
+
+#productName{
+    font-size:2rem;
+}
+
+.columnL {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top:1vh;
+}
+
+#qtyLabel {
+    font-weight: bold;
+    font-size: 1rem;
+}
+#qtyGroup{
+    text-align:center;
+}
+#btnAddToCart, #btnRemove, #btnView{
+    margin-top:4vh;
+}
+#addOrderBtn, #clearCartBtn{
+    padding:1vh;
+    margin-top:5vh;
+}
+td {
+    word-wrap:normal;
+}
+.googlemap {
+    height: 70%;
+    width: 100%;
+    min-height: 300px;
+}
+
+
+

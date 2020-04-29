@@ -1,0 +1,85 @@
+﻿@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<link href="~/css/vuemodal.css" rel="stylesheet" />
+<div id="orders">
+    <div class="mt-5">
+        <div class="card">
+            <div class="card-title text-center mt-3">
+                <h3>Past Orders</h3>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr class="font-weight-bold">
+                            <th class="text-center">#</th>
+                            <th class="text-center">Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr href="#" v-for="order in orders" v-on:click="orderForModal=order;loadAndShowModal();">
+                            <td class="text-center">{{order.id}}</td>
+                            <td class="text-center">{{formatDate(order.orderDate)}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <modal v-if="showModal" v-on:close="showModal = false" :order="orderForModal" :details="detailsForModal"></modal>
+</div>
+<script src="~/js/orderlist.js"></script>
+<!-- template for the modal component -->
+<script type="text/x-template" id="modal-template">
+    <transition name="modal">
+        <div class="modal-mask">
+            <div class="modal-wrapper">
+                <div class="modal-container">
+                    <button type="button" class="close" style="font-size:xx-large;" v-on:click="$emit('close')">
+                        X
+                    </button>
+                    <div class="text-center" style="font-size:larger; background-color:aliceblue;">
+                        <h3 style="padding-top:2vh;">Order:{{order.id}}</h3>
+                        <p>{{formatDate(order.orderDate)}}</p>
+                        <img class="modalimg" src="../images/cart.png" />
+                        <ul class="list-group vuerow">
+                            <li class="list-group-item vuerow" style="background-color:midnightblue; color: white;">
+                                <span class="vuecol20">Name</span>
+                                <span class="vuecol20">MSRP</span>
+                                <span class="vuecol20">QtyS</span>
+                                <span class="vuecol20">QtyO</span>
+                                <span class="vuecol20">QtyB</span>
+                                <span class="vuecol20">Extended</span>
+                            </li>
+                            <li id="vuedetail" v-for="detail in details" class="list-group-item vuerow">
+                                <span class="vuecol20">{{detail.name}}</span>
+                                <span class="vuecol20">{{detail.msrp | toCurrency}}</span>
+                                <span class="vuecol20">{{detail.qtySold}}</span>
+                                <span class="vuecol20">{{detail.qtyOrdered}}</span>
+                                <span class="vuecol20">{{detail.qtyBackOrdered}}</span>
+                                <span class="vuecol20">{{detail.extended | toCurrency}}</span>
+                            </li>
+                        </ul>
+                        <div v-if="details[0]" class="text-center">
+                            <div class="vuerow">
+                                <div class="vuecol80">Sub:</div>
+                                <div class="modalTotals">{{details[0].total / 1.13 | toCurrency}}</div>
+                            </div>
+                            <div class="vuerow">
+                                <div class="vuecol80">Tax:</div>
+                                <div class="modalTotals">{{(details[0].total / 1.13) * 0.13 | toCurrency}}</div>
+                            </div>
+                            <div class="vuerow">
+                                <div class="vuecol80">Total:</div>
+                                <div id="modalOrderTot" class="modalTotals">{{details[0].total | toCurrency}}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </transition>
+</script>

@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="card" style="border: 1px solid midnightblue;">
+    <div class="card-title text-center mt-5">
+        <h3 class="font-weight-bold">Cart Contents</h3>
+        <img src="/images/cart.png" style="height:22vh;width:20vh;padding-bottom:5%;" />
+    </div>
+    <div class="text-center">
+        @{
+            Dictionary<string, object> cart = Context.Session.Get<Dictionary<string, Object>>("cart");
+            decimal totalMSRP = 0.00M;
+            decimal totalCost = 0.00M;
+            decimal subTotal = 0.00M;
+        }
+            <div class="table-responsive">
+              <table class="table-striped table" id="orderTable" style="table-layout:fixed;">
+                <tr style="font-weight:bolder;">
+                    <th class="text-center">Code</th>
+                    <th class="text-center">Name</th>
+                    <th class="text-center">MSRP</th>
+                    <th class="text-center">Qty</th>
+                    <th class="text-center">Extended</th>
+                </tr>
+                @{
+                    if (cart != null)
+                    {
+                        foreach (var key in cart.Keys)
+                        {
+                            ProductViewModel item = JsonConvert.DeserializeObject
+                            <ProductViewModel>
+                            (Convert.ToString(cart[key]));
+                            if (item.Qty > 0)
+                            {
+                                totalMSRP = item.MSRP;
+                                totalCost = totalMSRP * item.Qty;
+                                subTotal += totalCost;
+                                <tr>
+                                    <td class="text-center">@item.Id</td>
+                                    <td class="text-center">@item.ProductName</td>
+                                    <td class="text-center">@String.Format("{0:C}", totalMSRP)</td>
+                                    <td class="text-center">@item.Qty</td>
+                                    <td class="text-center">@String.Format("{0:C}", totalCost)</td>
+                                </tr>
+                            }
+                        } //for each
+                    } //if
+                }
+                <tr class="text-center" style="font-size:large; font-weight:bold; background-color:midnightblue; color:white; width:100%;"><td colspan="5">Cart Totals</td></tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="text-right font-weight-bold">Sub Total:</td>
+                    <td class="text-center" id="subtotal">@String.Format("{0:C}", subTotal)</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="text-right font-weight-bold">Tax:</td>
+                    <td class="text-center" id="tax">@String.Format("{0:C}", (subTotal * .13M))</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="text-right font-weight-bold">Order Total:</td>
+                    <td class="text-center" id="ordertotal">@String.Format("{0:C}", (subTotal * 1.13M))</td>
+                </tr>
+               </table>
+            </div>
+        </div>
+        <div class="text-center mb-3">
+            <form asp-controller="Order" asp-action="AddOrder" method="post" role="form">
+                @if (Context.Session.Get(SessionVariables.User) != null)
+                {
+                    <button type="submit" class="btn btn-outline-success text-center" id="addOrderBtn">Add Order</button>
+                }
+                &nbsp;<a href="/Order/ClearCart" class="btn btn-outline-info text-center" id="clearCartBtn">Clear Cart</a>
+            </form>
+        </div>
+    </div>
